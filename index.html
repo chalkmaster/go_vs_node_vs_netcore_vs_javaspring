@@ -1,0 +1,53 @@
+<html>
+    <body>
+        <button onclick="runNode()">run node</button>
+        <div>
+            <h2>Node Result</h2>
+            <span id="nodePlayerProgress"></span>
+            <span id="nodeResult"></span>
+        </div>
+        <script>
+            let nodeReads = 0;
+            let nodeWrites = 0;
+            let nodeRun = true;
+            function runNode(){
+                nodeRun = true;
+                nodeReads = 0;
+                nodeWrites = 0;
+                runPlayerA();
+                runPlayerB();
+                setTimeout(() => {
+                    nodeRun = false;
+                    document.getElementById('nodeResult').innerText 
+                            = `reads = ${nodeReads}
+                             | writes = ${nodeWrites}
+                             | ~ write speed (ms) = ${nodeWrites / 60000}
+                             | ~ reads speed (ms) = ${nodeReads / 60000}`;
+                }, 60000);
+            }
+            function runPlayerA(){
+                if (!nodeRun) return;
+                const request = new XMLHttpRequest();
+                request.open('GET', 'http://localhost:8123/player/progress/1');
+                request.send();
+                request.onload = (res) => {
+                    nodeReads++;
+                    setTimeout(runPlayerA, 0);
+                }
+                request.onerror = err => console.error(err);
+            }
+            function runPlayerB(){
+                if (!nodeRun) return;
+                const request = new XMLHttpRequest();
+                request.open('PATCH', `http://localhost:8123/player/progress/1/${nodeWrites}`);
+                request.send();
+                request.onload = (res) => {
+                    nodeWrites++;
+                    document.getElementById('nodePlayerProgress').innerText = `progress ${nodeWrites}`;
+                    setTimeout(runPlayerB, 0);
+                }
+                request.onerror = err => console.error(err);
+            }
+        </script>
+    </body>
+</html>

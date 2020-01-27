@@ -1,0 +1,14 @@
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/bin/Debug/netcoreapp2.2/netcore.deps.json
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/bin/Debug/netcoreapp2.2/netcore.runtimeconfig.json
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/bin/Debug/netcoreapp2.2/netcore.runtimeconfig.dev.json
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/bin/Debug/netcoreapp2.2/netcore.dll
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/bin/Debug/netcoreapp2.2/netcore.pdb
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.csprojAssemblyReference.cache
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.csproj.CoreCompileInputs.cache
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.RazorAssemblyInfo.cache
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.RazorAssemblyInfo.cs
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.AssemblyInfoInputs.cache
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.AssemblyInfo.cs
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.RazorTargetAssemblyInfo.cache
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.dll
+/Users/charleswellingtonoliveirfortes/projects/go_vs_node_vs_netcore_vs_javaspring/netcore/obj/Debug/netcoreapp2.2/netcore.pdb
